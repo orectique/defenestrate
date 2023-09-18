@@ -10,7 +10,7 @@ winget install Microsoft.VCRedist.2022.arm64
 winget install CondaForge.Mambaforge
 winget install Posit.RStudio
 
-:: Fuck OneDrive, all my homies use a spare SSD
+:: Fuck OneDrive, all my homies use a spare SSD for backup
 
 winget uninstall Microsoft.OneDrive
 
