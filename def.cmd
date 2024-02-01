@@ -36,3 +36,6 @@ curl.exe --output "%USERPROFILE%\Downloads\rtools.exe" --url https://cran.r-proj
 
 %USERPROFILE%\Downloads\rbase.exe /SILENT /DIR="C:\Program Files\R\R-4.3.1"
 %USERPROFILE%\Downloads\rtools.exe /SILENT /DIR="C:\Rtools43"
+
+:: Setup WSL
+wsl --install
