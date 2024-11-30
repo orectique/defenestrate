@@ -29,6 +29,16 @@ winget install Julialang.Julia
 winget install Microsoft.VCRedist.2022.arm64
 winget install CondaForge.Mambaforge
 winget install Posit.RStudio
+winget install GitHub.GitHubDesktop
+winget install Valve.Steam
+
+winget uninstall 9NHT9RB2F4HD
+winget uninstall 9WZDNCRFHVFW
+winget uninstall 9P1J8S7CCWWT
+winget uninstall Microsoft.Teams
+winget uninstall Microsoft.Office
+winget uninstall 9NRX63209R7B
+winget uninstall 9MV0B5HZVK9Z
 
 :: Install R - TODO: update links to use stable links for latest release
 curl.exe --output "%USERPROFILE%\Downloads\rbase.exe" --url https://cran.r-project.org/bin/windows/base/R-4.3.1-win.exe
